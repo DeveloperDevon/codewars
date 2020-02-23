@@ -16,8 +16,6 @@ const printerError = (input) => {
   return `${errors}/${input.length}`
 }
 
-console.log('asdfg'.match('s'))
-
 // console.log(printerError(GOOD_CASE))
 // console.log(printerError(BAD_CASE))
 

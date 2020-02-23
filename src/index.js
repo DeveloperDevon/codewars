@@ -1,7 +1,8 @@
 const maskify = require('./katas/maskify')
-const solution = require('./katas/multiples-of-3-or-5')
+const solution = require('./katas/divisor')
 const { printerError } = require('./katas/printer-errors')
-
-// console.log(maskify('foobar22'))
-// console.log(solution(22))
-// console.log(printerError('aabbllddffyyy'))
+const abc123 = require('./katas/abc123')
+const summation = require('./katas/summation')
+const mm = require('./katas/maxMultiple')
+const duplicateEncoder = require('./katas/duplicate-encoder')
+const tto = require('./katas/two-to-one')

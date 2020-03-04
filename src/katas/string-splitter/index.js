@@ -7,9 +7,9 @@ const stringSplitter = (string) => {
 }
 
 // Better Solutions
-const solution = (str) => (str.length % 2 ? str + '_' : str).match(/../g)
-const solution2 = (str) => (str + "_").match(/../g)
+// const solution = (str) => (str.length % 2 ? str + '_' : str).match(/../g)
+// const solution2 = (str) => (str + "_").match(/../g)
 
-console.log(stringSplitter('abcdefg'))
+// console.log(stringSplitter('abcdefg'))
 
 module.exports = stringSplitter
